@@ -16,7 +16,7 @@ export default function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/schedule-email", form);
+      const res = await axios.post("https://email-flow-backend-y455.onrender.com/schedule-email", form);
       alert("✅ Email scheduled!");
     } catch (err) {
       alert("❌ Error scheduling email");
