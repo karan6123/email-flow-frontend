@@ -2,10 +2,11 @@
   "name": "email-scheduler-client",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+  "dev": "npx vite",
+  "build": "npx vite build",
+  "preview": "npx vite preview"
+},
+
   "dependencies": {
     "axios": "^1.3.5",
     "react": "^18.2.0",
